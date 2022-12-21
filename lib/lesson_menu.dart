@@ -15,7 +15,14 @@ class LessonMenu extends StatelessWidget {
           child: ListView(
             children: const [
               SizedBox(height: 32),
-              ButtonItem(title: 'Lección 1', route: Routes.lesson01)
+              ButtonItem(
+                title: 'Lección 1 - Mundo, Cuerpos y Figuras',
+                route: Routes.lesson01,
+              ),
+              ButtonItem(
+                title: 'Lección 2 - Cuerpos dinámicos, estáticos y kinemáticos',
+                route: Routes.lesson02,
+              ),
             ],
           ),
         ),
