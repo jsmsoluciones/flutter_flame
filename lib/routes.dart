@@ -1,8 +1,7 @@
-import 'package:flame/game.dart' hide Route;
-import 'package:flame_game_1/my_game.dart';
 import 'package:flutter/material.dart';
 
 import 'lesson_menu.dart';
+import 'my_game.dart';
 
 class Routes {
   static const menu = '/';
@@ -17,7 +16,7 @@ class Routes {
       case menu:
         return buildRoute(const LessonMenu());
       case lesson01:
-        return buildRoute(GameWidget(game: MyGame()));
+        return buildRoute(MyGameWidget(game: MyGame()));
       default:
         throw Exception('La ruta no existe');
     }
