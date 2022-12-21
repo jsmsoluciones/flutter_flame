@@ -27,6 +27,10 @@ class LessonMenu extends StatelessWidget {
                 title: 'Lección 3 - Fricción, densidad y restitución',
                 route: Routes.lesson03,
               ),
+              ButtonItem(
+                title: 'Lección 4 - Fuerzas',
+                route: Routes.lesson04,
+              ),
             ],
           ),
         ),
