@@ -35,6 +35,10 @@ class LessonMenu extends StatelessWidget {
                 title: 'Lección 5 - Cuerpos y Sprites',
                 route: Routes.lesson05,
               ),
+              ButtonItem(
+                title: 'Lección 6 - Coliciones',
+                route: Routes.lesson06,
+              ),
             ],
           ),
         ),
