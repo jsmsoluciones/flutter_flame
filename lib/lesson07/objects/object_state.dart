@@ -1,0 +1,1 @@
+enum ObjectState { normal, explode }

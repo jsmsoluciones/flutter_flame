@@ -6,6 +6,7 @@ import 'lesson03/game_lesson_03.dart';
 import 'lesson04/game_lesson_04.dart';
 import 'lesson05/game_lesson_05.dart';
 import 'lesson06/game_lesson_06.dart';
+import 'lesson07/game_lesson_07.dart';
 import 'lesson_menu.dart';
 import 'my_game.dart';
 
@@ -17,6 +18,7 @@ class Routes {
   static const lesson04 = '/lesson04';
   static const lesson05 = '/lesson05';
   static const lesson06 = '/lesson06';
+  static const lesson07 = '/lesson07';
 
   static Route routes(RouteSettings setting) {
     MaterialPageRoute buildRoute(Widget widget) {
@@ -38,6 +40,8 @@ class Routes {
         return buildRoute(MyGameWidget(game: GameLesson05()));
       case lesson06:
         return buildRoute(MyGameWidget(game: GameLesson06()));
+      case lesson07:
+        return buildRoute(MyGameWidget(game: GameLesson07()));
       default:
         throw Exception('La ruta no existe');
     }
