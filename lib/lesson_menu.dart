@@ -20,7 +20,7 @@ class LessonMenu extends StatelessWidget {
                 route: Routes.lesson01,
               ),
               ButtonItem(
-                title: 'Lección 2 - Cuerpos dinámicos, estáticos y kinemáticos',
+                title: 'Lección 2 - Tipos de cuerpos',
                 route: Routes.lesson02,
               ),
               ButtonItem(
@@ -30,6 +30,10 @@ class LessonMenu extends StatelessWidget {
               ButtonItem(
                 title: 'Lección 4 - Fuerzas',
                 route: Routes.lesson04,
+              ),
+              ButtonItem(
+                title: 'Lección 5 - Cuerpos y Sprites',
+                route: Routes.lesson05,
               ),
             ],
           ),
