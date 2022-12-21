@@ -23,6 +23,10 @@ class LessonMenu extends StatelessWidget {
                 title: 'Lección 2 - Cuerpos dinámicos, estáticos y kinemáticos',
                 route: Routes.lesson02,
               ),
+              ButtonItem(
+                title: 'Lección 3 - Fricción, densidad y restitución',
+                route: Routes.lesson03,
+              ),
             ],
           ),
         ),
