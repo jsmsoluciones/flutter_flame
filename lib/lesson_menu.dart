@@ -43,6 +43,10 @@ class LessonMenu extends StatelessWidget {
                 title: 'Lección 7 - Animaciones',
                 route: Routes.lesson07,
               ),
+              ButtonItem(
+                title: 'Lección 8 - Sprites animados',
+                route: Routes.lesson08,
+              ),
             ],
           ),
         ),

@@ -5,7 +5,7 @@ import 'package:flame/sprite.dart';
 
 import '../my_game.dart';
 import 'objects/ball.dart';
-import 'objects/floor.dart';
+import '../lesson08/objects/floor.dart';
 import 'objects/square.dart';
 
 late SpriteAnimation explosion;
